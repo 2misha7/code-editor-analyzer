@@ -58,13 +58,12 @@ A web application to edit code and generate LLM prompts based on code diffs for 
 
 \- Built with \*\*ASP.NET Core\*\*
 
-\- Provides `/codeanalysis/generate-prompt` endpoint
+\- Provides `/report` endpoint
 
-\- Uses \*\*Google Gemini LLM API\*\* (or any LLM API)
+\- Uses \*\*Google Gemini LLM API\*\*
 
 \- Generates formatted prompts from code diffs
 
-\- Reads API keys from `secrets.json` or environment variables
 
 
 
@@ -78,7 +77,7 @@ A web application to edit code and generate LLM prompts based on code diffs for 
 
 
 
-1\. Add your secrets using \*\*dotnet user-secrets\*\* (do \*\*not\*\* commit secrets):
+1\. Add your secrets using \*\*dotnet user-secrets\*\* 
 
 
 
