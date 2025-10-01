@@ -444,3 +444,7 @@ frontend/.env
 
 
 secrets.json
+
+# IntelliJ / JetBrains IDE
+.idea/
+*.iml
